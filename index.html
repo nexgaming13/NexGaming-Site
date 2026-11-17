@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gaming Zone | Twoje centrum gamingu</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0b0b16;
+            color: white;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 25px;
+            text-align: center;
+            background: #121225;
+            border-bottom: 2px solid #713cff;
+        }
+
+        header h2 {
+            color: #9b70ff;
+            font-size: 26px;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 20px;
+            color: #a47aff;
+            text-shadow: 0 0 20px #713cff;
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #c5c5d5;
+            max-width: 550px;
+            line-height: 1.7;
+        }
+
+        .button {
+            margin-top: 30px;
+            padding: 15px 35px;
+            background: #713cff;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background: #925fff;
+            transform: scale(1.05);
+        }
+
+        .about {
+            background: #121225;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            color: #a47aff;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        .about p {
+            color: #c5c5d5;
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.7;
+        }
+
+        footer {
+            padding: 25px;
+            text-align: center;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 38px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>🎮 GAMING ZONE</h2>
+    </header>
+
+    <section class="hero">
+        <h1>Witaj w Gaming Zone!</h1>
+
+        <p>
+            Witaj na mojej stronie gamingowej!
+            Znajdziesz tutaj wszystko związane z grami,
+            gamingiem i światem graczy.
+        </p>
+
+        <a href="#about" class="button">
+            Poznaj nas
+        </a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>O naszej stronie</h2>
+
+        <p>
+            Gaming Zone to miejsce stworzone dla fanów gier.
+            Naszym celem jest dzielenie się gamingową pasją,
+            ciekawostkami i nowościami ze świata gier.
+            Miło Cię tutaj widzieć!
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Gaming Zone | Wszystkie prawa zastrzeżone
+    </footer>
+
+</body>
+</html>
