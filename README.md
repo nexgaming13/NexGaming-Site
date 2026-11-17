@@ -1,1 +1,1 @@
-Wejdż na naszą stronę internetową! https://nexgaming13.github.io/NexGaming-Site/
+Wejdź na naszą stronę internetową! https://nexgaming13.github.io/NexGaming-Site/
